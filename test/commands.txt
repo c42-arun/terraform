@@ -1,0 +1,7 @@
+terraform console
+
+> var.myvar
+> var.mymap
+> var.mymap.mykey
+> var.mylist
+> splice(var.mylist, 0, 2)
