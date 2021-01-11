@@ -1,0 +1,16 @@
+terraform plan
+terraform apply
+
+terraform console
+> azurerm_resource_group.demo
+{
+  "id" = "/subscriptions/accc73f9-fbd2-4037-be46-9c6cfb25a8b9/resourceGroups/resource-group-demo"
+  "location" = "westeurope"
+  "name" = "resource-group-demo"
+  "tags" = tomap({
+    "env" = "resource-group-demo"
+  })
+  "timeouts" = null /* object */
+}
+> azurerm_resource_group.demo.tags.env
+"resource-group-demo"
